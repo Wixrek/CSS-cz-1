@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <h2><b>Odpowiedz na pytania:</b></h2>
+        <h3>1.gdzie jest wstawiany,<br>
+            2.składnia teoretyczna (w ramce, konieczne wcięcia),<br>
+            3.jakie mogą być selektory,<br>
+            4.jakie mogą być cechy i wartości. </h3><p>
+1)    Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami < head> a < /head>).<br>
+     Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie <br>
+     na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).<p>
+2)<fieldset>
+    < head><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp(...)<br>
+    &nbsp   < style type="text/css"><br>
+    &nbsp  /* < ![CDATA[ */<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp   selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp   selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp    (...)<br>
+    &nbsp  /* ]]> */<br>
+       &nbsp < /style><br>
+       &nbsp &nbsp   &nbsp &nbsp   &nbsp &nbsp   (...)<br>
+        < /head>
+</fieldset><p>
+3)Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka<br>
+ tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi<br>
+  znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.<p>
+    4)Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi<br>
+     (opisane w kolejnych rozdziałach).   Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.<br>
+    Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
