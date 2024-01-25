@@ -1,0 +1,67 @@
+<html lang="pl-PL">
+    <meta charset="utf-8"
+    <body>
+        
+<font face="arial" size="5"><strong> 1. Opis znacznika DIV </strong> </font><p>
+<font face="arial" size="4"> 1. Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne<br> elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur.<p>
+    2. Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu,<br> na przykład lewa kolumna, menu nawigacyjne, stopka.<p>
+    3. Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.<p>
+    4. DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu fragmentów dokumentu. </font><p>
+        <table border="5" width="500" height="200">
+            <tr></tr>
+            <td>  
+                <b>ALIGN</b>="ustawienie"<br>
+                Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):<br>
+                center - wyśrodkowanie<br>
+                justify - wyrównanie do obu marginesów jednocześnie<br>
+                left - wyrównanie do lewej<br>
+                right - wyrównanie do prawe  </td>
+            <tr></tr>
+            <td>  <b>CLASS</b>="klasa" Przypisuje nazwę klasy (CSS)  lub nazwy<br> klas do elementu, które muszą być rozdzielone białymi znakami  </td>
+<tr><td> <b>DIR</b>="kierunek" Kierunek tekstu:<br>
+    ltr - od lewej do prawej<br>
+    rtl - od prawej do lewej</td></tr>
+<tr><td><b>ID</b>="nazwa" Przypisuje nazwę elementowi (identyfikator),<br> która nie może się powtarzać w całym dokumencie</td></tr>
+<tr><td>  <b>LANG</b>="język" Informacja o języku bazowym<br> (np.: LANG="en" oznacza angielski, LANG="pl" - polski itd.)  </td></tr>
+<tr><td><b>STYLE</b>="styl" Informacje stylów (CSS)    </td></tr>
+<tr><td>  <b>TITLE</b>="tekst" Tekst pomocniczy  </td></tr>
+        </table>
+        <br>
+<font face="arial" size="5"><b> 2. Opis znacznika SPAN </b></font><p>
+<font face="arial" size="3">1. Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą<br> zawierać elementów blokowych, ale mogą inne elementy wyświetlane<br> w linii oraz zwykły tekst.
+    <br> 2. Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem,<br> do wyodrębnienia tego tekstu nie możemy użyć elementu div <br>(paragraf  z zasady nie może zawierać elementów blokowych) tylko span.<br>
+    3. Wewnątrz DIV można oczywiście wpisać również SPAN.<p>
+    
+        <br>  Składnia teoretyczna </font><br>
+            <table border="2" width="430"> <tr><td>
+                < span style="cecha1: wartość1; cecha2: wartość2...">...< /span></td></tr> </table><p>
+                Znacznik <span>...</span> pozwala na objęcie pewnego większego fragmentu<br>
+                dokumentu. Pojedynczym znacznikiem < span>...< /span> możemy objąć kilka <br>
+                różnych elementów, które są wyświetlane w linii (sam element SPAN tak właśnie<br>
+                jest wyświetlany), np. wytłuszczenie tekstu oraz kursywę. Element ten tak dobrze <br>
+                nadaje się do osadzania stylów, ponieważ sam w sobie nie ma określonego<br>
+                 żadnego formatowania, które mogłoby kolidować z efektem, jaki chcemy uzyskać<p>
+<font face="arial" size="5"><b> 3. Różnica między znacznikami DIV i SPAN. </b></font><p>
+<font face="arial" size="3"> Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu,<br>
+     aby docelowo na przykład poprzez arkusze styli osiągnąć zamierzony wygląd <br>
+     strony. Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu)<br>
+      a divem blokowe (blokowe elementy, większe fragmenty struktury składające się<br> na układ strony)<br>    
+    Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. </font><p>
+<font face="arial" size="5"><b> 4. Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.  </b></font><p>
+<font face="arial" size="3">Elementy liniowe nie spowodują przejścia do nowej linii, będą wyświetlać się <br>
+    obok siebie, w jednej linii. Domyślnie, elementom liniowym przeglądarka <br>
+    ustawia właściwość "display" na "inline".<br><p>
+
+    Elementy blokowe z kolei będą zachowywać się jak pudełka, które ustawiasz<br>
+     jeden pod drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie,<br>
+      elementom blokowym przeglądarka ustawia właściwość "display" na "block",<br><p>
+
+    Elementy liniowo-blokowe z kolei będą zachowywać się jak liniowe, jeśli chodzi<br>
+     o położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od <br>
+     nich tym, że możesz nadać im różne wielkości. Ma to sens, np. < textarea><br>
+      wyświetla się jako duży prostokąt i zdecydowanie "wychodzi" poza pojedynczą<br>
+       linijkę tekstu. Domyślnie, elementom liniowo blokowym przeglądarka ustawia <br>
+       właściwość "display" na "inline-block" </font><p>
+    </body>
+</html> 
+<!-- Ignacy Zakrzewski -->
