@@ -1,37 +1,37 @@
-#pogrubienie_warkusz {
+#pogrubienie_zakrzewski {
     font-weight: bold;
-    font-size: 32px;
-    color: #8A61CF;
+    font-size: 49px;
+    color: #9A5ad3;
 }
 
-#pochylona_warkusz {
+#pochylona_zakrzewski {
     font-style: italic;
-    font-size: 37px;
-    color: #EEC56B;
+    font-size: 40px;
+    color: #FEBE6F;
 }
 
-#index_gorny_warkusz {
-    font-size: 1.2cm;
-    color: #9E931B;
+#index_gorny_zakrzewski {
+    font-size: 1.5cm;
+    color: #AE8C1F;
 }
 
-#index_dolny_warkusz {
-    font-size: 1.9cm;
-    color: rgb(20%,97%,89%);
+#index_dolny_zakrzewski {
+    font-size: 2.5cm;
+    color: rgb(30%,96%,93%);
 }
 
-#mono_warkusz {
+#mono_zakrzewski {
     font-family: monospace;
-    font-size: 42px;
-    color: #18E36B;
+    font-size: 45px;
+    color: #2EDC83;
 }
 
-#powiekszenie_warkusz {
-    font-size: 60px;
-    color:#58439D;
+#powiekszenie_zakrzewski {
+    font-size: 63px;
+    color:#683CA1;
 }
 
-#pomniejszenie_warkusz {
-    font-size: 16px;
-    color: rgb(74%,65%,22%);
+#pomniejszenie_zakrzewski {
+    font-size: 19px;
+    color: rgb(82%,64%,25%);
 }
