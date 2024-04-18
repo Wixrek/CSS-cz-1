@@ -1,0 +1,36 @@
+#id1{
+    font-size:21pt;
+    color:blue;
+}
+#id1::first-letter{
+    font-size:121pt;
+    color:gold;
+}
+#id2{
+    font-size: 23pt;
+    color: blue;
+}
+#id2::first-letter{
+    font-size: 121pt;
+    color: silver;
+}
+#h1{
+    font-weight: bold;
+    font-size: 25pt;
+    color: darkblue;
+}
+#h1::first-letter{
+    font-size: 130pt;
+    color: lightgray;
+}
+#id3{
+    font-size: 21pt;
+    color: blue;
+}
+#id3::first-line{
+    font-size: 16pt;
+    color: red;
+}
+#id3::first-letter{
+    font-size: 121pt;
+}

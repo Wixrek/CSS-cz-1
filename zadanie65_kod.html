@@ -1,0 +1,107 @@
+<html>
+    <body>
+       <h1> Kod HTML </h1>
+       <textarea cols="100" rows="69">
+        
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="zadanie65_zakr.css" type="text/css">
+        <meta charset="utf-8">
+        <title>Zadanie_65-Zakrzewski</title>
+    </head>
+<body bgcolor="silver">
+    <div class="pierwszy_zakrzewski">
+        <p class="first-child">Pierwszy akapit/pierwszy DIV--> Zakrzewski nazwa ID akapitu id="pierwszy_zakrzewski"<br></p> 
+    
+        <p>
+            akapit/pierwszy DIV <br>
+            pierwszy akapit --> p:first-child {font-size:7mm;font-style:italic;}<br>
+            bo numer nieparzysty w dzienniku<br>
+            pozostałe akapity --> p{font-size: 11pt;}<br>
+            szerokość bloku = 700+29*4-816pt<br>
+            pierwszy DIV--> różowy<br><br>
+    
+            trzeci akapit/pierwszy DIV<br>
+            pierwszy DIV-> fioletowe<br>
+            pierwszy DIV--> obramowanie grubość 7px, ciągle (solid) pierwszy DIV--> 13=7mm+6(Ignacy)=13mm
+        </p>
+    </div>
+    <div class="drugi_zakrzewski">
+        <p class="first-child">Pierwszy akapit/drugi DIV--> zakrzewski nazwa ID akapitu id="drugi_zakrzewski"</p>
+        
+        
+        <p> Drugi akapit/drugi DIV<br>
+        drugi DIV--> kolor jasno zielony<br>
+        trzeci akapit/drugi DIV<br>
+        drugi DIV--> obramowanie czarne DIV<br>
+        drugi DIV--> obramowanie grubość 3px, ciągłe (solid) |drugi DIV--> 17=7mm+10(zakrzewski)=17mm <br></p>
+        
+        </div>
+        
+        
+        
+        <div class="trzeci_zakrzewski">
+        <p class="first-child"> Pierwszy akapit/trzeci DIV-->  1P nazwa ID akapitu id="trzeci_zakrzewski"</p>
+        <p>
+            Drugi akapit/trzeci DIV<br>
+            pierwszy DIV--> kolor jasno niebieski<br>
+            trzeci akapit/trzeci DIV(solid)<br>
+            drugi DIV--> obramowanie granatowy DIV <br>
+            drugi DIV--> obramowanie grubość 5px , ciągłe (solid)<br>
+            drugi DIV--> 18=7mm+11(listopad)=18mm <br>
+        
+        
+        
+        
+        </p>
+        </div>
+
+
+
+
+
+</body>
+</html>
+
+
+       </textarea>
+
+       <h1> Kod CSS </h1>
+       <textarea cols="50" rows="33">
+        div.pierwszy_zakrzewski{
+            background-color: #FFC0CB;
+            border-radius: 13pt;
+            border:solid 7px purple;
+            size:816px;
+        }
+        div.drugi_zakrzewski{
+            background-color: #7DCCBD;
+            border-radius: 17pt;
+            border:solid 3px black;
+            margin-left: auto;
+            margin-right: auto;
+            size:1016px;
+        }
+        div.trzeci_zakrzewski{
+            background-color: #4d91ff;
+            border-radius: 18pt;
+            border:solid 5px darkblue;
+            margin-left: auto;
+            margin-right: auto;
+            size:1216px;
+        }
+        p{
+            font-size:11pt;
+        }
+        p.first-child{
+            font-size:7mm;
+            font-style: italic;
+            
+        }
+        
+
+       </textarea>
+
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+     <head>
+            <link rel="stylesheet" href="styles.css">
+            <meta charset="utf-8" >
+         <title>zadanie_56-Zakrzewski</title>
+<style>
+    h1{
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    p{
+        color:black;
+        font-family:   Arial, Helvetica, sans-serif;
+    }
+    b{
+        font-weight: 700;
+    }
+</style>
+     </head>
+        <body>
+            
+<h1>    1. Składnia teoretyczna definiowania klasy => obramowania (może być tabele jednokomórkowa)</h1>
+<p><textarea rows="2" cols="35">
+selektor.klasa {cecha: wartość}
+</textarea></p>
+<h1>    2. Podaj opis dla Klasa "cecha" oraz "wartość"</h1>
+<p><b>Klasa</b> to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.<br>
+    <b>"cecha" oraz "wartość"</b> określają atrybuty elementu nadane poprzez style.</p>
+<h1>3. Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem)</h1>
+<p> p => akapit,<br>
+    h1 => tytuł,<br>
+    td => komórka tabeli i inne.
+    </p>
+<h1>4. Podaj uwagi na temat <b>nazwy</b> klas: (wykonaj cały tekst, uzupełnij miejsca kropek,
+    uzupełnienia wykonaj pismem pogrubionym, pogrubienia wykonaj z użyciem CSS)</h1>
+<p>Jako klasa należy podać dowolny pojedynczy wyraz, który nie może zawierać<br>
+    znaków: <b>spacji, kropki, przecinka, dwukropka, pytajnika, nawiasów, znaku równości, plusa </b>itp.<br>
+    Może natomiast zawierać litery <b>(A-Z, a-z), cyfry (0-9), myślniki ("-") i podkreślniki<br>
+    ("_").</b> Lepiej nie używać polskich liter.<br>
+    Nie może <b>się on również rozpoczynać cyfrą ani myślnikiem.</b><br>
+    Jeśli koniecznie chcemy użyć "zakazanych" znaków,<b>należy w deklaracji klasy<br>
+    poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha:<br>
+    wartość } odpowiada klasie: class="B&W?".</b> <br></p>
+<h1>5. Jakie jest zastosowanie klas?</h1>
+<p>
+    Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się<br>
+elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się<br>
+selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co<br>
+wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie.<br></p>
+<h1>6. Kiedy ma zastosowanie lista klas?</h1>
+<p>
+Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas, należy posłużyć się poleceniem<br>
+</p>
+<h1>7. Składnia teoretyczna listy klasy =>  obramowania (może być tabele jednokomórkowa), oraz uwagi.</h1>
+<textarea rows="2" cols="60">
+    <selektor class="klasa1 klasa2 klasa3...">...</selektor>
+    </textarea><br>
+    przy czym klasy: klasa1, klasa2, klasa3 muszą być zdeklarowane w wewnętrznym,<br>
+    zewnętrznym lub importowanym arkuszu stylów.<br>
+    Kolejność wpisywania nazw klas w wartości atrybutu class="..." nie ma znaczenia na<br>
+    ostateczny sposób formatowania elementu. Jeżeli kilka przypisanych klas odnosi się<br>
+    do tej samej własności, o wyniku decyduje zasada kaskadowości.<br>
+    <h1>8. Czym są podzbiory klas. Składnia teoretyczna listy klasy => obramowania (może być tabele jednokomórkowa).</h1>
+<p>Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć<br>
+    jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie. Na<br>
+    przykład po wpisaniu:<br>
+   <textarea rows="2" cols="40">
+selektor.klasa1.klasa3 { cecha: wartość }
+    </textarea><br>
+    zmieniony zostanie sposób formatowania elementu:<br>
+ <textarea rows="2" cols="50">
+<selektor class="klasa1 klasa2 klasa3">...</selektor>
+    </textarea><br>
+    Kolejność podawania klas - zarówno w regule CSS, jak i w wartości atrybutu class="..." - nie ma znaczenia</p><br>
+    <h1>9. Co jest sygnałem (przesłanką), że należy zastosować klasy?</h1>
+    <p> Gdy chcesz zastosować określone style do wielu elementów na stronie internetowej<br>
+        Gdy chcesz uniknąć powtarzalności kodu CSS poprzez zdefiniowanie stylów raz i ponowne ich wykorzystanie<br>
+        Gdy chcesz zachować czytelność i łatwiejszą zarządzalność stylów na stronie<br>
+        Gdy potrzebujesz łatwego sposobu na grupowanie elementów o podobnych stylach<br>
+        Gdy chcesz zastosować różne style do różnych elementów, ale nie chcesz tworzyć osobnych reguł dla każdego przypadku<br>
+        Gdy chcesz zapewnić spójność stylów na stronie internetowej </p>
+<h1>10. Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?</h1>
+<p>Podczas tworzenia strony od podstaw: Przy projektowaniu strony internetowej od zera, warto z góry zaplanować klasy, które będą stosowane do różnych elementów, aby uniknąć chaosu w stylowaniu później.<br>
+    Dla zachowania spójności: Planowanie klas pozwala na zachowanie spójności wizualnej na całej stronie. Dzięki zdefiniowaniu i stosowaniu określonych klas dla podobnych elementów, można zapewnić, że strona będzie wyglądać spójnie i profesjonalnie.<br>
+    Dla łatwiejszego zarządzania stylami: Korzystanie z uporządkowanych klas ułatwia zarządzanie stylami na stronie. Możesz łatwo modyfikować i dostosowywać style, nie naruszając istniejących elementów.<br>
+</p>
+<h1>11. Jaki jest cel stosowania komentarzy podczas definiowania klas? </h1>
+<p>
+    Dokumentacja kodu: Komentarze pozwalają dokumentować kod CSS, co jest szczególnie przydatne przy większych projektach lub gdy współpracujesz z innymi programistami. Komentarze mogą opisywać przeznaczenie danej klasy, sposób jej użycia oraz inne istotne informacje.<br>
+
+Łatwiejsze zrozumienie kodu: Dzięki komentarzom osoby czytające kod (w tym także Ty w przyszłości) mogą łatwiej zrozumieć, dlaczego dana klasa została zdefiniowana w określony sposób i jak powinna być używana. To ułatwia późniejsze modyfikacje i utrzymanie stylów.<br>
+
+Ułatwienie debugowania: Komentarze mogą pomóc w procesie debugowania, ponieważ opisują, co dana klasa ma robić lub jakie problemy mogą wystąpić. Dzięki temu łatwiej jest zlokalizować i naprawić błędy w stylach.<br>
+
+Organizacja kodu: Komentarze mogą służyć do organizacji kodu CSS, dzięki czemu można podzielić style na logiczne sekcje, takie jak nagłówek, sekcje, stopka itp. To sprawia, że kod jest bardziej czytelny i uporządkowany.<br>
+</p>
+<h1> 12. Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).  </h1>
+<p>
+    <textarea cols="50" rows="22">
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .article {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </textarea>
+</p>
+<h1>  13. Omów klasa donosząca się tylko do jednego selektora wraz z przykładem. </h1>
+<p> Klasa donosząca się tylko do jednego selektora w CSS to klasa, która ma zastosowanie tylko do jednego konkretnego elementu na stronie. Jest to przydatne, gdy chcesz zastosować specyficzne style tylko do tego jednego elementu, nie wpływając na inne elementy o tej samej klasie.  </p>
+
+<h1>
+    14. Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy
+można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).
+</h1>
+<p>Stosowanie klasy uniwersalnej w CSS ma na celu zastosowanie określonych stylów do wszystkich elementów na stronie internetowej. Znak „*” używany jest jako selektor uniwersalny, który odnosi się do wszystkich elementów na stronie, co pozwala na zastosowanie stylów dla każdego elementu bez wyjątku. Może to być przydatne, gdy chcesz zastosować pewne style globalnie na stronie.</p>
+
+
+
+</body>
+</html>

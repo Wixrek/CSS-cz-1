@@ -1,0 +1,30 @@
+div.pierwszy_zakrzewski{
+    background-color: #FFC0CB;
+    border-radius: 13pt;
+    border:solid 7px purple;
+    size:816px;
+}
+div.drugi_zakrzewski{
+    background-color: #7DCCBD;
+    border-radius: 17pt;
+    border:solid 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    size:1016px;
+}
+div.trzeci_zakrzewski{
+    background-color: #4d91ff;
+    border-radius: 18pt;
+    border:solid 5px darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    size:1216px;
+}
+p{
+    font-size:11pt;
+}
+p.first-child{
+    font-size:7mm;
+    font-style: italic;
+    
+}
