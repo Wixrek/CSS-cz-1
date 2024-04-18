@@ -1,0 +1,26 @@
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+x{
+    color: red;
+    font-size: 2cm;
+}
+
+/* text decoration: none oznacza że link niema żadnej dekoracji np.podkreślenia */
+/* text decoration: underline oznacza dekoracje tekstu a mianowicie podkreślenie  */
+/* Ignacy Zakrzewski */

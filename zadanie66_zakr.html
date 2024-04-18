@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 67</title>
+</head>
+<body>
+    <p>Pseudoelement :first-line pozwala na stylizację pierwszej <br>
+        linii tekstu w elemencie. Jest to przydatne,<br>
+         gdy chcemy nadać inną stylizację, taką jak inny kolor<br>
+          lub rozmiar czcionki, pierwszej linii tekstu w bloku.<br>
+        przykład:<br>
+        p::first-line {<br>
+            color: blue;<br>
+            font-size: 120%;<br>
+        }
+        </p>
+        <p>
+            Pseudoelementy :before i :after pozwalają na wstawienie<br>
+             fikcyjnych elementów przed lub po zawartości rzeczywistego<br>
+             elementu w HTML. Możemy użyć ich do dodania dekoracji,<br>
+              ikon lub tekstu do elementów, bez konieczności zmiany samego HTML.<br>
+              przykład:<br>
+              p::before {<br>
+                content: "Początek: ";<br>
+                font-weight: bold;<br>
+            }
+            
+            p::after {<br>
+                content: " - Koniec.";<br>
+                font-style: italic;<br>
+            }
+        </p>
+        <p>
+            Pseudoelement :first-letter pozwala na stylizację<br>
+             pierwszej litery tekstu w elemencie. Jest to przydatne,<br>
+              gdy chcemy nadać pierwszej literze inny kolor, wielkość <br>
+              czcionki lub styl.<br>
+              przykład:<br>
+              p::first-letter {<br>
+                font-size: 150%;<br>
+                color: red;<br>
+            }
+        </p>
+</body>
+</html>
